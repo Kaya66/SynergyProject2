@@ -32,5 +32,9 @@
         <members>*</members>
         <name>StaticResource</name>
     </types>
+    <types>
+    <members>Product2</members>
+    <name>CustomObject</name>
+    </types>
     <version>52.0</version>
 </Package>
