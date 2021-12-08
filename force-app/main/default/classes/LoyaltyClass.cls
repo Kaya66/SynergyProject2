@@ -7,6 +7,9 @@ public with sharing class LoyaltyClass {
             if(c.Account__c == null){
                 c.addError('Must include a Account');
             }
+            if(c.Date_of_Birth__c == null){
+                c.addError('Must include a Date of Birth');
+            }
             
             
          //   c.Origin = 'Web';
