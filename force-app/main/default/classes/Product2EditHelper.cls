@@ -11,8 +11,3 @@ public with sharing class Product2EditHelper {
         }
     }
 }
-
-
-
-
-
