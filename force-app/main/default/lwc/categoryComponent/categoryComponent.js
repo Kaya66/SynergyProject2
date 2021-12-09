@@ -1,11 +1,11 @@
 import { LightningElement } from 'lwc';
-import image from '@salesforce/resourceURL/static';
+import image from '@salesforce/resourceUrl/static';
 
 export default class CategoryComponent extends LightningElement {
-    man = image + '/ManIcon.jpg';
-    woman = image + '/womanIcon.png';
-    baby = image + '/babyIcon.jpg';
-    dog = image + '/dogIcon.png';
-    tech = image + '/techIcon.png';
-    furniture = image + '/furnitureIcon.png';
+    man = image + '/resources/ManIcon.png';
+    woman = image + '/resources/womanIcon.png';
+    baby = image + '/resources/babyIcon.jpg';
+    dog = image + '/resources/dogIcon.png';
+    tech = image + '/resources/techIcon.png';
+    furniture = image + '/resources/furnitureIcon.png';
 }
