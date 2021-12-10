@@ -1,0 +1,7 @@
+<aura:component implements="flexipage:availableForAllPageTypes, lightning:isUrlAddressable">
+    
+    <aura:handler name="init" value="{!this }" action="{!c.doInit }"/>
+    
+    <aura:attribute name="message" type="String" />
+    {! v.message }
+</aura:component>	
