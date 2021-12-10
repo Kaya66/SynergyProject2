@@ -2,18 +2,12 @@
     "packageDirectories": [
         {
             "path": "force-app", 
-            "default": true,
-            "package": "Matthew_Pack",
-            "versionName": "ver 1.1",
-            "versionNumber": "1.0.0.NEXT"
+            "default": true
         }
     ],
     "name": "Project 2",
     "namespace": "",
     "sfdcLoginUrl": "https://login.salesforce.com",
-    "sourceApiVersion": "52.0",
-    "packageAliases": {
-        "Matthew_Pack": "0Ho5f00000000IDCAY",
-        "Matthew_Pack@1.0.0-2": "04t5f000000iN6tAAE"
-    }
+    "sourceApiVersion": "52.0"
+
 }
