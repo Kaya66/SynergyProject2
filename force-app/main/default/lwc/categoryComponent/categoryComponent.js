@@ -1,6 +1,6 @@
 import { LightningElement } from 'lwc';
 import image from '@salesforce/resourceUrl/static';
-/*export statement assigns each static resource to a variable to be referenced in the categoryComponent.html file */
+
 export default class CategoryComponent extends LightningElement {
     man = image + '/resources/ManIcon.png';
     woman = image + '/resources/womanIcon.png';
