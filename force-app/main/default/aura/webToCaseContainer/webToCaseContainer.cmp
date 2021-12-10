@@ -1,4 +1,4 @@
 <aura:component>
 <!-- this is the button where the lwc will render on click-->
-<lightning:button variant ="brand" label="Yes, I need extra help" title=""
+<lightning:button variant ="brand" label="Yes, I need extra help" title=""></lightning:button>
 </aura:component>	
