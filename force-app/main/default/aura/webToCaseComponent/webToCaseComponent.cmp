@@ -1,5 +1,5 @@
 <aura:component implements="flexipage:availableForAllPageTypes" access="global">
-    
+    <!--Kelsey's aura component-->
     <aura:attribute name="truthy" type="boolean" default="false"></aura:attribute>
     <p>Need extra assistance from our customer support team?</p>
     <lightning:button variant="brand" label="Yes, I need help" title="Brand action" onclick="{!c.handleClick}"/>
