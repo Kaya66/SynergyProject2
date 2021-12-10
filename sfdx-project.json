@@ -1,18 +1,12 @@
 {
-    "packageDirectories": [
-        {
-            "path": "force-app",
-            "default": true,
-            "package": "categoryComponent",
-            "versionName": "ver 1.0",
-            "versionNumber": "1.0.0.NEXT"
-        }
-    ],
-    "name": "SynergyProject2",
-    "namespace": "",
-    "sfdcLoginUrl": "https://login.salesforce.com",
-    "sourceApiVersion": "52.0",
-    "packageAliases": {
-        "categoryComponent": "0Ho5f000000k9s1CAA"
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true
     }
+  ],
+  "name": "SynergyProject2",
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "52.0"
 }
