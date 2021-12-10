@@ -10,7 +10,7 @@ export default class Loyalty extends LightningElement {
     @api objectName = Object_NAME;
 
 
-    Loyalty_customer = '';
+    Finish = false;
     
     myFields = [Loyalty_Customer, Loyalty_Customer_Date];
 
@@ -20,6 +20,7 @@ export default class Loyalty extends LightningElement {
             message: 'Case Record Created.',
             variant: 'Success'
         });
+        Finish = true;
         this.dispatchEvent(toastEvent); 
     }
 }
