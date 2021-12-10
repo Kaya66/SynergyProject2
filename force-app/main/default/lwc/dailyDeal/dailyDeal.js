@@ -6,7 +6,8 @@ import getDailyDeal from '@salesforce/apex/DailyDeal.getDailyDeal';
 
 
 export default class ContactDataTable extends LightningElement {
-    data = [];
+
+    data = [];  //create data array and pass the information from apex to the array.
     @wire(getDailyDeal) dailyDeal;
     populateData({error, data}){
         if(data){

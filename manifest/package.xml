@@ -34,6 +34,7 @@
     </types>
     <types>
     <members>Product2</members>
+    <members>LoyaltyCustomer</members>
     <name>CustomObject</name>
     </types>
     <version>52.0</version>

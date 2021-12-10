@@ -8,6 +8,9 @@ import Loyalty_Customer_Date from '@salesforce/schema/Loyalty_Customer__c.Date_o
 //import Loyalty_Customer from '@salesforce/schema/Loyalty_Customer__c.   Loyalty_Customer__c';
 export default class Loyalty extends LightningElement {
     @api objectName = Object_NAME;
+
+
+    Loyalty_customer = '';
     
     myFields = [Loyalty_Customer, Loyalty_Customer_Date];
 
@@ -19,6 +22,4 @@ export default class Loyalty extends LightningElement {
         });
         this.dispatchEvent(toastEvent); 
     }
-// Zeke you a fucking idiot
-//
 }

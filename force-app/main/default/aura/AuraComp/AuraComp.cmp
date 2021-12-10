@@ -1,3 +1,20 @@
-<aura:component>
+<aura:component implements="flexipage:availableForAllPageTypes">
+    <aura:if isTrue="{!v.renderLoyalty}">
+        <lightning:card title="Loyalty" />
+        <c:loyalty name="Loyalty Component"></c:loyalty>
 
+
+
+    <aura:set attribute="else">
+        <!-- False -->
+
+
+        <lightning:card title="Loyalty">
+            <p>Thank you {!v.Loyalty_Customer} for joining our Loyalty Program</p>
+        </lightning:card>
+
+
+        <!-- GET NAME From Loyalty LWC to display here in a thankyou message. -->
+    </aura:set>
+    </aura:if>
 </aura:component>	
