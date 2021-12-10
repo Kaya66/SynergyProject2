@@ -19,6 +19,6 @@ export default class Loyalty extends LightningElement {
         });
         this.dispatchEvent(toastEvent); 
     }
-
+// Zeke you a fucking idiot
 
 }
