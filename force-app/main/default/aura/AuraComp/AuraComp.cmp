@@ -1,4 +1,4 @@
-<aura:component>
+<aura:component implements="flexipage:availableForAllPageTypes">
     <aura:if isTrue="{!v.renderLoyalty}">
         <lightning:card title="Loyalty" />
         <c:loyalty name="Loyalty Component"></c:loyalty>
@@ -10,7 +10,7 @@
 
 
         <lightning:card title="Loyalty">
-            <p>Thank you {!v.LoyaltyName} for joining our Loyalty Program</p>
+            <p>Thank you {!v.Loyalty_Customer} for joining our Loyalty Program</p>
         </lightning:card>
 
 
