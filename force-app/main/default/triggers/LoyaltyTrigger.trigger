@@ -7,3 +7,4 @@ trigger LoyaltyTrigger on Loyalty_Customer__c (before insert) {
     }
     
 }
+//asdf
