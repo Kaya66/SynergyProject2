@@ -1,6 +1,6 @@
 import { LightningElement } from 'lwc';
 import image from '@salesforce/resourceUrl/static';
-
+//Kelsey Morrison
 export default class CategoryComponent extends LightningElement {
     man = image + '/resources/ManIcon.png';
     woman = image + '/resources/womanIcon.png';

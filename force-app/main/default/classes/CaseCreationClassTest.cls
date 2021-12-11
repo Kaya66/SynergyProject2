@@ -1,5 +1,8 @@
 @isTest
 public with sharing class CaseCreationClassTest {
+    //this test checks for each field value being null and catches the exception.
+    //It places each attempt into a list to try and commit all at once.
+    //Kelsey Morrison
     @isTest static void CaseCreationClassTestNull() {
        List<Case> newCases = new List<Case>();
         Case a = new Case();
