@@ -2,9 +2,8 @@
     <aura:attribute name="truthy" type="boolean" default="false"></aura:attribute>
 
     <aura:renderIf isTrue="{!v.truthy}">
-        <lightning:card title="Hello, LWC Below">
+        <lightning:card title="Bullseye Loyalty Program">
         <c:loyalty></c:loyalty>
-
         </lightning:card>
 
         <aura:set attribute="else">

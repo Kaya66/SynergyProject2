@@ -20,7 +20,7 @@ export default class Loyalty extends LightningElement {
             message: 'Case Record Created.',
             variant: 'Success'
         });
-        Finish = true;
+        this.Finish = true;
         this.dispatchEvent(toastEvent); 
     }
 }
