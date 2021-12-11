@@ -1,7 +1,7 @@
-trigger webToCaseReasonTrigger on SOBJECT (before insert) {
-    for(CASE.trigger.new){
-    if(CASE.CASE_REASON == null){
-        CASE.addError("case reason cannot be null. Please provide a reason for your case.");
+trigger webToCaseReasonTrigger on CASE (before insert) {
+    if(trigger.isBefore){
+        if(Trigger.isInsert){
+        CaseCreationClass.CaseCreationClassMethod(Trigger.new);
+        }
     }
-}
 }
