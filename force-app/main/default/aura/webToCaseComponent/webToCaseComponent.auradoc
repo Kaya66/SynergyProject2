@@ -1,6 +1,6 @@
 <aura:documentation>
 	<aura:description>Documentation</aura:description>
 	<aura:example name="ExampleName" ref="exampleComponentName" label="Label">
-		Example Description
+		This component is an aura component that contains the webtocase lwc. It will have a button that, when clicked, will render the lwc.
 	</aura:example>
 </aura:documentation>
