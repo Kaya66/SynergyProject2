@@ -1,7 +1,9 @@
-<aura:component implements="flexipage:availableForAllPageTypes, lightning:isUrlAddressable">
-    
-    <aura:handler name="init" value="{!this }" action="{!c.doInit }"/>
-    
-    <aura:attribute name="message" type="String" />
-    {! v.message }
-</aura:component>	
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes">
+    <aura:attribute name="url" type="String"/>
+    <aura:attribute name="pageReference" type="Object"/>
+    <aura:handler name="init" value="{! this }" action="{! c.init }"/>
+    <lightning:navigation aura:id="navService"/>
+    <a href="{!v.url}">Link</a>
+</aura:component>
+
+<!--This will eventually be Nav for our experience site. It is currently incomplete-->
