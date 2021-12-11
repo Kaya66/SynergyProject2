@@ -1,18 +1,13 @@
 {
     "packageDirectories": [
-        {
-            "path": "force-app",
-            "default": true,
-            "package": "AuraLoyaltyPackage",
-            "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT"
-        }
+      {
+        "path": "force-app",
+        "default": true
+      }
     ],
     "name": "SynergyProject2",
     "namespace": "",
     "sfdcLoginUrl": "https://login.salesforce.com",
-    "sourceApiVersion": "52.0",
-    "packageAliases": {
-        "AuraLoyaltyPackage": "0Ho5f000000sYP9CAM"
-    }
-}
+    "sourceApiVersion": "52.0"
+  }
+  

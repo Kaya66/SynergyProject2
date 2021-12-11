@@ -8,3 +8,4 @@ trigger Product2EditTrigger on Product2 (before insert, before update) {
         }
     }
 }
+//zeke   basic trigger for before update and insert. 

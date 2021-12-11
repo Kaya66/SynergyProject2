@@ -20,3 +20,4 @@ export default class ContactDataTable extends LightningElement {
 
 
 
+//zeke      sends data to the carousel
