@@ -1,0 +1,11 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global">
+    <!--Kelsey's aura component-->
+    <aura:attribute name="truthy" type="boolean" default="false"></aura:attribute>
+    <p>Need extra assistance from our customer support team?</p>
+    <lightning:button variant="brand" label="Yes, I need help" title="Brand action" onclick="{!c.handleClick}"/>
+    <!-- This is an LWC component-->
+    
+        <aura:if isTrue="{!v.truthy}">
+            <c:webToCaseComponent></c:webToCaseComponent>
+        </aura:if>
+</aura:component>	
