@@ -1,12 +1,13 @@
 {
-  "packageDirectories": [
-    {
-      "path": "force-app",
-      "default": true
-    }
-  ],
-  "name": "SynergyProject2",
-  "namespace": "",
-  "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "52.0"
-}
+    "packageDirectories": [
+      {
+        "path": "force-app",
+        "default": true
+      }
+    ],
+    "name": "SynergyProject2",
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "52.0"
+  }
+  

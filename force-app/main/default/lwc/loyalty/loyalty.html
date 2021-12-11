@@ -1,5 +1,11 @@
 <template>
+    <template if:false={Finish}>
     <lightning-record-form object-api-name={objectName} fields={myFields} onsuccess={handleCaseCreation}>
            <!-- -->
     </lightning-record-form>
+    </template>
+    <template if:true={Finish}>
+        <p>Thank you for joining our loyalty program.</p>
+    </template>
+
 </template>

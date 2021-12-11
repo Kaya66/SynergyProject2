@@ -11,3 +11,4 @@ public with sharing class Product2EditHelper {
         }
     }
 }
+//zeke validation for products to make sure if its set to "is active" and "is a daily deal" that it must have a display url with it.

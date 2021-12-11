@@ -52,3 +52,4 @@ public class Product2editHelperTest {
 
     }
 }
+//zeke lots and lots of tdata to be generated,    then inserts the list.    checks if there was an exception thrown by the trigger activation and validation rule happening "before insert"

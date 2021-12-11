@@ -35,11 +35,15 @@ public class DailyDealTest {
         d.isActiveDailyDeal__c = false;
         d.IsActive = false;
         newProduct.add(d);
+//zeke    Generates a lot f data
+
+
 
         System.debug('Adding products to product2: ' + newProduct);
         System.debug('Number of added entries: ' + newProduct.size());
         insert newProduct;
     }
+//insert the data 
     
     @isTest 
     Public static void PositiveAndNegativeDailyDeal() {
@@ -50,3 +54,4 @@ public class DailyDealTest {
     }
 
 }
+//and test the data.
