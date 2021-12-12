@@ -6,6 +6,7 @@
     <!-- This is an LWC component-->
     
         <aura:if isTrue="{!v.truthy}">
-            <c:webToCaseComponent></c:webToCaseComponent>
+<br></br>
+            <c:webToCase></c:webToCase>
         </aura:if>
 </aura:component>	
