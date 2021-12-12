@@ -1,4 +1,4 @@
-<aura:component implements="forceCommunity:availableForAllPageTypes" access="global">
+<aura:component implements="flexipage:availableForAllPageTypes" implements="forceCommunity:availableForAllPageTypes" access="global">
     <aura:attribute name="truthy" type="boolean" default="false"></aura:attribute>
 
     <aura:renderIf isTrue="{!v.truthy}">
