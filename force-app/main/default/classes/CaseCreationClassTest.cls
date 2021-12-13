@@ -22,12 +22,6 @@ public with sharing class CaseCreationClassTest {
         b.SuppliedEmail = 'bcaseemail@email.com';
         newCases.add(b);
         
-        Case c = new Case();
-        c.SuppliedName = 'Name c';
-        c.Reason = null;
-        c.SuppliedPhone = 'casePhone c';
-        c.SuppliedEmail = 'ccaseemail@email.com';
-        newCases.add(c);
         
         Case d = new Case();
         d.SuppliedName = 'Name d';
