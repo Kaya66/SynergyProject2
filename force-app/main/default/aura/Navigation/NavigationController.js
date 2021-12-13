@@ -10,7 +10,7 @@
         var pageReference = {
             type: 'standard__objectPage',
             attributes: {
-                objectApiName: 'Case',
+                objectApiName: 'Campaign',
                 actionName: 'home'
             }
         };
