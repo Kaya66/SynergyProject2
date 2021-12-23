@@ -24,9 +24,11 @@ Our business resembled Target and we renamed it to BullsEye. In this project, th
 1. 
 ## Usage
 1. Displaying Daily Deals
-2. Signing up for the loyalty program
+2. Signing up for the loyalty program 
 3. Sending Customer Case's fron the web
-4.
+4. Displaying Links to popular catagories
+![image](https://user-images.githubusercontent.com/43184173/147262000-94d984c9-d522-461f-83ab-56705de043ab.png)
+![image](https://user-images.githubusercontent.com/43184173/147262017-2d401f76-aab1-4ef8-b962-8abb63f0668d.png)
 
 ## Contributors
 1. Matthew Janosik
