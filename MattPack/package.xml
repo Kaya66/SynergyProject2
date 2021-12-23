@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MattPack</fullName>
+    <types>
+        <members>DailyDeal</members>
+        <members>DailyDealTest</members>
+        <members>LoyaltyClass</members>
+        <members>LoyaltyClassTest</members>
+        <members>Product2EditHelper</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>Product2EditTrigger</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>ACMJ</members>
+        <name>AuraDefinitionBundle</name>
+    </types>
+    <types>
+        <members>Loyalty_Customer__c.Date_of_Birth__c</members>
+        <members>Product2.isActiveDailyDeal__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Loyalty_Customer__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>dailyDeal</members>
+        <name>LightningComponentBundle</name>
+    </types>
+    <version>53.0</version>
+</Package>

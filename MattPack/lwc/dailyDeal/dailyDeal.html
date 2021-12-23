@@ -1,0 +1,24 @@
+<template>
+
+    <div class="slds-size_3-of-4">
+        <div class="slds-box slds-box_x-small slds-text-align_center slds-m-around_x-small"> Daily Deals
+            <template if:true={dailyDeal.data}>
+                <lightning-carousel disable-auto-scroll>
+                    <template for:each={dailyDeal.data} for:item="Prod">
+                        <lightning-carousel-image
+                        key={Prod.Name}
+                        src={Prod.DisplayUrl}
+                        header={Prod.Name}
+                        alternative-text={altText}
+                        href={Prod.DisplayUrl}></lightning-carousel-image>
+                    </template>
+                </lightning-carousel>
+            </template>
+        </div>
+    </div>
+</template>
+
+
+
+
+<!-- zeke Create Image Carousel that displays picture form URL and information about the product.-->

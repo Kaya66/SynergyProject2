@@ -1,12 +1,23 @@
 {
-  "packageDirectories": [
-    {
-      "path": "force-app",
-      "default": true
+    "packageDirectories": [
+        {
+            "path": "force-app",
+            "default": true
+        },
+        {
+            "path": "MattPack",
+            "package": "MattPack",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "default": false
+        }
+    ],
+    "name": "SynergyProject2",
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "52.0",
+    "packageAliases": {
+        "MattPack": "0Ho5f00000000JLCAY",
+        "MattPack@0.1.0-1": "04t5f000000ianZAAQ"
     }
-  ],
-  "name": "SynergyProject2",
-  "namespace": "",
-  "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "52.0"
 }

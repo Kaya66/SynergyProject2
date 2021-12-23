@@ -1,0 +1,13 @@
+<aura:component implements="flexipage:availableForAllPageTypes,forceCommunity:availableForAllPageTypes">
+    <aura:attribute name="render" type="Boolean"/>
+    <aura:renderIf isTrue="{!v.render}"> <!--condition rendering -->
+        
+        <lightning:button label="Show Daily Deals" onclick="{!c.changeValue}"/> 
+        <c:dailyDeal> </c:dailyDeal><!--Component  -->
+        <aura:set attribute="else">
+            <lightning:button label="Show Daily Deals" onclick="{!c.changeValue}"/>
+            
+        </aura:set>
+    </aura:renderIf>
+   
+</aura:component>
