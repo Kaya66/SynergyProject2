@@ -31,7 +31,7 @@ Our business resembled Target and we renamed it to BullsEye. In this project, th
 ## Contributors
 1. Matthew Janosik
 2. Zeke Zimmerman
-3. Anderson
+3. Anderson Kornkven
 4. Kelsey Morrison
 
 ## License
