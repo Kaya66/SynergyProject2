@@ -4,8 +4,7 @@
     <types>
         <members>DailyDeal</members>
         <members>DailyDealTest</members>
-        <members>LoyaltyClass</members>
-        <members>LoyaltyClassTest</members>
+
         <members>Product2EditHelper</members>
         <name>ApexClass</name>
     </types>
@@ -18,12 +17,12 @@
         <name>AuraDefinitionBundle</name>
     </types>
     <types>
-        <members>Loyalty_Customer__c.Date_of_Birth__c</members>
+      
         <members>Product2.isActiveDailyDeal__c</members>
         <name>CustomField</name>
     </types>
     <types>
-        <members>Loyalty_Customer__c</members>
+       
         <name>CustomObject</name>
     </types>
     <types>
