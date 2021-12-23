@@ -21,7 +21,15 @@ Our business resembled Target and we renamed it to BullsEye. In this project, th
 -   Get navigation component populated with links
 
 ## Getting Started
-1. 
+*note ensure you have the salesforce cli and java 8 or 11 installed along wtih salesforce extensions in VS Code*
+1. clone the repository on your local machine: git clone <repo> 
+2. open the file in VS Code
+3. authorize the code in your org: SFDX: Authorize an org  
+4. add static resource file to org under 'static resources'
+5. Install packages starting with the metadata package first  
+6. Deploy packages to your org in the same order as listed above 
+7. In your org, navigate to the page you want to add the components to and open the lightning app builder. The components will appear on the left-hand side of the screen.  
+  
 ## Usage
 1. Displaying Daily Deals
 2. Signing up for the loyalty program 
