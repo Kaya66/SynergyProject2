@@ -23,7 +23,15 @@ Our business resembled Target and we renamed it to BullsEye. In this project, th
 ## Getting Started
 1. 
 ## Usage
+1. Displaying Daily Deals
+2. Signing up for the loyalty program
+3. Sending Customer Case's fron the web
+4.
 
 ## Contributors
+1. Matthew Janosik
+2. Zeke Zimmerman
+3. Anderson
+4. Kelsey Morrison
 
 ## License
