@@ -1,18 +1,29 @@
-# Salesforce DX Project: Next Steps
+# Project Description
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+Our business resembled Target and we renamed it to BullsEye. In this project, the team was tasked with creating LWC's, Aura components, Apex Triggers, and Apex test classes. Each member created their own LWC that was then used by another member in an aura component. Each member created a trigger that is related to the business we chose to model. We then created our own unlocked packages that held our components and a metadata package containing all of the necessary metadata for all of the othe packages.
 
-## How Do You Plan to Deploy Your Changes?
+## Technologies Used
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+- Lightning Web Components
+- Aura Components
+- Experience Site
+- Apex Classes
+- Apex Triggers
+- Apex Test Classes
 
-## Configure Your Salesforce DX Project
+## Features
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+- An Aura component conditionally rendering a LWC 
+- Apex triggers that ensure good data is entered
+- Apex Test classes that cover 100% of the code
+-   To Do:
+-   Add more pages to the experience site
+-   Get navigation component populated with links
 
-## Read All About It
+## Getting Started
+1. 
+## Usage
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+## Contributors
+
+## License
